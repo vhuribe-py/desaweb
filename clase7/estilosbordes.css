@@ -1,0 +1,42 @@
+.bordesolido{
+  border-color: #aaaaaa;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.bordepunteado{
+  border: 1px dotted #ff8833;
+}
+
+.bordedoble{
+  border: 9px double #990000;
+}
+
+.bordedashed{
+  border: lpx dashed #660000;
+}
+
+.bordegroove{
+  border: 5px groove #66cc66;
+}
+
+div.borderidge{
+  border: 10px ridge #6666cc;
+}
+
+div.bordeinset{
+  border: 10px inset #3333ff;
+  background-color: #0000ff;
+}
+
+div.bordeoutset{
+  border: 10px outset #cccccc;
+  background-color: #cccccc;
+}
+
+.bordeporlados{
+  border-top: 1px solid #ff9999;
+  border-right: 2px dotted #99ff99;
+  border-bottom: 2px dashed #9999ff;
+  border-left: 3px double #666666;
+}

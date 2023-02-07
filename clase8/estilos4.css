@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#cabecera{
+  background-color: #becdfe;
+  padding: 10px;
+  margin: 10px;
+}
+
+#pie{
+  background-color: #becdfe;
+  padding: 10px;
+  margin: 10px;
+  clear: both;
+}
+
+.columna1, .columna2, .columna3 {
+  background-color: #becdfe;
+  width: 280px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  height: 400px;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}

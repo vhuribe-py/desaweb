@@ -1,0 +1,36 @@
+#principal_gris { 
+    width: 1000px;
+    height: 800px;
+    background: grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#cab_amarillo { 
+    width: 980px;
+    height: 80px;
+    background: yellow;
+    margin: 0px auto;
+}
+#izq_azul { 
+    width: 680px;
+    height: 400px;
+    background: blue;
+    float:left;
+    margin-left: 10px;
+}
+#der_rojo { 
+    width: 290px;
+    height: 540px;
+    background: red;
+    float:right;
+    margin-right: 10px;
+}
+#pie_negro { 
+    width: 980px;
+    height: 180px;
+    background: black;
+    margin-left: 10px;
+    clear:both;
+}

@@ -1,0 +1,65 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="estilos.css" title="style" />
+<style>
+    #grad1 {
+        height: 150px;
+        width: 200px;
+        background-color: red;
+       /*
+       background-image: radial-gradientblue, yellow);
+        background-image: repeating-linear-gradient(45deg, blue, yellow 33.3%);
+        background-image: linear-gradient(red 10%, green 85%, blue 90%);
+        background-image: linear-gradient(0deg, red 10%, yellow, blue);
+        background-image: linear-gradient(to top right, red, yellow);
+        background-image: linear-gradient(to left, red, yellow);
+        background-image: linear-gradient(red, yellow);*/
+    }
+    p.test1{
+        white-space: nowrap;
+        width: 200px;
+        border: 1px solid #000000;
+        overflow: hidden;
+        text-overflow: clip;
+    }
+
+    p.test2{
+        white-space: nowrap;
+        width: 200px;
+        border: 1px solid #000000;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    p.test3{
+        width: 140px;
+        border: 1px solid #000000;
+        word-break: keap-all;
+    }
+
+    p.test4{
+        width: 140px;
+        border: 1px solid #000000;
+        word-break: break-all;
+    }
+    /*letra con sombra h1*/
+    h1{
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+    }
+</style>
+</head>
+<body>
+
+    <div id="grad1"></div>
+    <h1>The text-overflow property</h1>
+    <p class="test1">los dos parrafos siguientes contienen un texto extenso que no cabe en el cuadro</p>
+    <p class="test2">los dos parrafos siguientes contienen un texto extenso que no cabe en el cuadro</p>
+    <h2>text-overflow: clip:</h2>
+    <p class="test3">Este es un texto extenso que cabe en el cuadro</p>
+    <p class="test4">Este es un texto extenso que cabe en el cuadro</p>
+</div>
+</body>
+</html>

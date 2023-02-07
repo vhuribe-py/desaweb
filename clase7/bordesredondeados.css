@@ -1,0 +1,32 @@
+/*CSS 3 incorpora nuevas propiedades para el
+control de bordes de los elementos. Ahora se
+permiten bordes con las esquinas redondeadas
+Internet Explorer hay que decir que
+todavía no soporta este atributo de CSS 3*/
+
+#capa1, #capa2{
+border-radius: 15px;
+}
+
+/*Por el momento, para navegadores Mozilla y Chrome
+que son los primeros en adaptarse a CSS3, podemos
+utilizar el atributo border-radius de la siguiente manera*/
+#capa3{
+-webkit-border-radius: 15px;
+padding: 10px;
+}
+
+/*la propiedad padding es importante para que el
+texto no se superponga con el borde redondeado
+definido para el div*/
+
+#icapasl{
+-webkit-border-radius: 15px 27px 100px 0px;
+}
+
+/*Así estaríamos definiendo un borde redondeado
+con radio de 15 pixel para la esquina superior izquierda
+luego 27px para la esquina superior derecha
+de 100px para la inferior derecha y 0px para la
+inferior izquierda. (Hay que explicar que un
+border-radius de 0px es un borde con esquina en ángulo recto) */

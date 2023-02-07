@@ -1,0 +1,58 @@
+/* === IMPORTANTE ===================================================
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================================================================== */
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: linear-gradient(#4d98db, #000000); 
+}
+
+/*-- Básico ----------------------------------------------------------*/
+h1, h2, h3, p, form { margin: 0; padding: 0; }
+.clear { clear: both; }
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#cabecera { clear: both; }
+#caja-izquierda { float: left; width:  679px; margin: 0px;  padding: 0px 0px 0px 0px; background: #cac9c9; }
+#caja-derecha {float: right; width: 300px; margin: 0px; padding: 0px 20px  0px 0px; background: #a7a5a5; }
+#caja-derecha ul li {list-style-type: circle; line-height: 30px; margin: 0px 30px; padding: 0px 0px 0px 15px; border-left: none; color: #4D4D4D;}
+#caja-derecha H2 {height: 32px; padding-left: 30px; margin-bottom: 10px; border-bottom: 1px solid #D6D6D6; font-size: 1.8em; color: #696969; background: url(img08.jpg)  no-repeat left 4px;}
+
+#post {
+  border-bottom: 1px dotted #E7E2DC; border-top: 1px solid #ffffff; border-left: 1px solid #ffffff; border-right: 1px solid #ffffff; background: linear-gradient( to bottom, #ececec, #ffffff);
+}
+
+#post H2{
+  letter-spacing: -.5px; padding: 20px 10px 0px 30px; font-size: 30 px;
+}
+#post H5{
+  float: right; font-size: 30 px; padding: 30px;
+}
+
+#post p{
+  padding: 0px 30px 20px 30px; padding-bottom: 20px; text-align: justify;
+}
+
+#cabecera {
+  background-image: url("montanas.png"); 
+}
+
+#cabecera h1 span {
+  color: #ffffff;
+  margin: 50px;
+  float: left;
+  font-family: Arial;
+}
+
+#post a {
+  padding: 30px; font-size  : 12px; font-weight: bold;
+}

@@ -1,0 +1,154 @@
+/* === IMPORTANTE ===================================================
+   No modificar estos estilos, ya que son imprescindibles para
+   que la página se vea correctamente.
+   ================================================================== */
+
+/*-- Básico ----------------------------------------------------------*/
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  max-width: 940px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: auto;
+}
+
+#menu { clear: both; }
+#lateral { float: left; width: 20%; }
+#contenido { float: right; width: 78%; }
+#contenido #principal { float: left; width: 78%; }
+#contenido #secundario { float: right; width: 20%; }
+#pie { clear: both; }
+
+/*-- Cabecera --------------------------------------------------------*/
+#cabecera h1{ color: white; }
+
+/*-- Menu ------------------------------------------------------------*/
+#menu ul#menu_principal li { display: inline; float: left; }
+
+/*-- Sección Principal -----------------------------------------------*/
+#contenido #principal .articulo img { width: 100px; float: left; }
+
+/*-- Pie de página ---------------------------------------------------*/
+#pie .enlaces   { float: left; }
+#pie .copyright { float: right; }
+
+/* === IMPORTANTE ===================================================
+   A partir de aquí, se pueden añadir todos los estilos propios que 
+   sean necesarios.
+   ================================================================== */
+
+
+#menu,
+#lateral,
+#lateral #noticias,
+#lateral #publicidad,
+#contenido,
+#contenido #principal,
+#contenido #secundario,
+#pie {
+  padding: .5em;
+  border: none;
+}
+
+#lateral {
+  padding: 0;
+}
+
+#cabecera {
+  width: 940px;
+  height: 70px;
+  background: #33B4DE;
+  padding: .5em;
+}
+
+#cabecera h1 {
+  width: 180px;
+  height: 25px;
+}
+
+#menu {
+  width: 940px;
+  height: 30px;
+  background: #000000;
+}
+
+#contenido {
+  width: 100%;
+  padding: 0;
+}
+
+#contenido #principal {
+  width: 73%;
+}
+
+#contenido #secundario {
+  border: 1px solid #C60;
+}
+
+#contenido #secundario h2 {
+    background: #DB905C;
+	padding: .2em;
+}
+
+#pie {
+  padding: .5em 0;
+  margin-top: 1em;
+  border-top: 1px solid #C5C5C5;
+  border-bottom: 1px solid #C5C5C5;
+  background: #F8F8F8;
+}
+
+#contenido #principal .articulo {
+  margin-bottom: 1em;
+}
+
+#contenido #principal .articulo img { 
+  margin: .5em;
+}
+
+#lateral #noticias {
+  border: 1px solid #C5C5C5;
+  background: #F8F8F8;
+}
+
+#lateral #publicidad {
+  margin-top: 1em;
+  border: 1px dashed #C60;
+  background: #FFF6CD;
+}
+
+
+#menu li {
+  float: left;
+}
+
+#menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 940px;
+  background-color: #4d4c4a;
+  }
+  
+  #menu ul li a{
+  display: block;
+  padding: 8px 16px;
+  color: white;
+  text-decoration: none;
+  }
+  
+  #menu ul li a.active{
+  background-color: #0a0a0a;
+  color: #ffffff;
+  }
+  
+  #menu ul li a:hover:not(.active) {
+  background-color: #0a0a0a;
+  color:  #ffffff;
+  }
+  
+  #menu ul li a:hover {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  }

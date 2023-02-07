@@ -1,0 +1,13 @@
+div {
+  border: 2px solid #CCC;
+  padding: 1em;
+  margin: 1em 0 1em 4em;
+  width: 300px;
+  position: relative;
+}
+
+div img {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}

@@ -1,0 +1,161 @@
+html body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  max-width: 940px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: auto;
+}
+
+#mymenu { clear: both; }
+
+#cabecera {
+  height: 60px;
+  background: #33B4DE;
+  padding: .8em;
+}
+
+#cabecera h1 {
+  color: #ffffff;
+  padding: .5em;
+}
+
+#cabeceraN1 {
+  height: 20px;
+  background: #4dc8f1;
+}
+
+#mymenu {
+  height: 35px;
+  background: #000000;
+  padding: .300px;
+  border: none;
+}
+#mymenu li {
+  float: left;
+}
+
+  
+#mymenu ul li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  text-decoration: none;
+  padding: 14px 20px 0;
+}
+  
+#mymenu ul li a.active{
+  background-color: #0a0a0a;
+  color: #ffffff;
+  text-decoration: underline #ffffff;
+}
+
+.current_page_item{
+  background: #f7e031;
+  height: 35px;
+  color: #FFFFFF;
+}
+
+#mymenu ul li a:link {
+  color: #FFFFFF;
+}
+
+#mymenu ul li a:visited {
+  color: #ffffff;
+}
+
+#mymenu ul li a:focus {
+  border-bottom: 3px solid #ffffff;
+  background: #000000;
+}
+
+#mymenu ul li a:hover {
+  border-bottom: 3px solid #ffffff;
+  background: #000000;
+}
+
+#mymenu ul li a:active {
+  background: #000000;
+  color: #ffffff;
+}
+
+
+#contanier {
+  height: 920px;
+  background-color: #080808;
+  margin: auto;
+}
+
+#caja_izquierda {
+  width: 177px;
+  float:left;
+  padding-left: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #585D60;
+}
+
+#caja_izquierda h2 {
+  height: 26px;
+  margin: 0 0 10px 0px;
+  padding: 12px 0 2px 7px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: normal;
+  color: #464F54;
+}
+
+#caja_izquierda p {
+  margin: 0;
+  padding: 0px 10px;
+  line-height: 200%;
+}
+
+#caja_izquierda ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: normal;
+}
+
+#caja_izquierda ul li{
+  margin: 0;
+  padding: 7px 10px 10px 7px;
+  border-bottom: 1px dotted #83878c;
+  text-align: left;
+  text-decoration: none;
+  font-weight: normal;
+  color: #585D60;
+}
+
+#caja_derecha {
+  width: 658px;
+  float:right;
+}
+
+#post {
+  border-bottom: 1px dotted #83878c;
+  margin-bottom: 25px;
+}
+
+#post h2 {
+  height: 30px;
+  color: #549900;
+}
+
+#post P {
+  padding: 10px 0;
+}
+
+#post h2 a{
+  text-decoration: none;
+color: #585D60; 
+}

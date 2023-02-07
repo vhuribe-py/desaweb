@@ -1,0 +1,34 @@
+<html>
+    <body>
+        <form action="maneja_formulario.php" method="post">
+            <fieldset>
+              <legend>Datos personales</legend>
+              <label for="nombre">Nombre</label><br>
+              <input type="text" name="nombre" value="" /><br>
+              <label for="apellidos">Apellidos</label><br>
+              <input type="text" name="apellidos" value="" /><br>
+              <label for="dni">DNI</label><br>
+              <input type="text" name="dni" value="" size="10" maxlength="9" /><br>
+            </fieldset>
+          
+            <fieldset>
+              <legend>Datos de conexión</legend>
+              <label for="username">Nombre de usuario</label><br/>
+              <input type="text" name="username" value="" maxlength="10" /><br/>
+              <label for="password">Contraseña</label><br/>
+              <input type="password" name="password" value="" maxlength="10" /><br/>
+              <label for="password2">Repite la contraseña</label><br/>
+              <input type="password" name="password2" value="" maxlength="10" /><br/>
+              
+              <label for="so">Sistema operativo</label> <br/>
+                <select id="so" name="so">
+                <option value="" selected="selected">- selecciona -</option>
+                <option value="windows">Windows</option>
+                <option value="mac">Mac</option>
+                <option value="linux">Linux</option>
+                <option value="otro">Otro</option>
+              </select>
+            </fieldset>
+          </form>
+    </body>
+</html>

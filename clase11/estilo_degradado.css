@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: verdana, sans-serif;
+}
+
+div{
+  border: 1px solid;
+  float: left;
+  height: 140px;
+  width: 140px;
+  margin: 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+  word-wrap: break-word;
+  /*word-wrap que sirve para especificar que las palabras
+  que sean demasiado largas se deben cortar, el otro valor posible es "normal*/
+}
+
+h2 {
+  margin: 55px 0 -30px 65px;
+  font-size:22px;
+  white-space:pre;
+  text-align: center;
+  width: 400px;
+  /*pre mp se eliminan los espacios en blanco sobrantes y solo se muestran los
+  saltos de linea incluidos en el texto original*/
+
+}

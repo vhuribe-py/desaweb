@@ -1,0 +1,162 @@
+html body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul, ul li { margin: 0; padding: 0; list-style: none; }
+
+/*-- Layout ----------------------------------------------------------*/
+#contenedor {
+  max-width: 1040px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: auto;
+}
+
+#mymenu { clear: both; }
+
+#cabecera {
+  height: 80px;
+  background: #aad224;
+  padding: .8em;
+}
+
+#cabecera h1 {
+  color: #ffffff;
+  padding: .5em;
+}
+
+#mymenu {
+  margin-left: 20px;
+  height: 35px;
+  width: 1000px;
+  background: #D63D8F;
+  border: none;
+  margin-top:-6px;
+  padding-bottom:6px;
+  align-content: center;
+}
+#mymenu li {
+  float: left;
+}
+
+  
+#mymenu ul li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  text-decoration: none;
+  padding: 14px 20px 0;
+}
+  
+
+.current_page_item{
+  background: #9D66DE;
+  text-shadow: #43206B -1px 1px 2px;
+  margin-top:-6px;
+  padding-bottom:6px;
+}
+
+
+#mymenu ul li a:hover {
+  background: #9D66DE;
+  text-shadow: #43206B -1px 1px 2px;
+  margin-top:-6px;
+  padding-bottom:6px;
+}
+
+
+
+#container {
+  height: 920px;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+#caja_izquierda {
+  width: 640px;
+  float: left;
+  margin: 0px;
+  padding: 0px 30px 30px 20px;
+}
+
+#caja_izquierda h2 {
+  height: 26px;
+  margin: 0 0 10px 0px;
+  padding: 12px 0 2px 7px;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: normal;
+  color: #464F54;
+}
+
+#caja_izquierda p {
+  margin: 0;
+  padding: 0px 10px;
+  line-height: 200%;
+}
+
+#caja_izquierda ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: normal;
+}
+
+#caja_izquierda ul li{
+  margin: 0;
+  padding: 7px 10px 10px 7px;
+  border-bottom: 1px dotted #83878c;
+  text-align: left;
+  text-decoration: none;
+  font-weight: normal;
+  color: #585D60;
+}
+
+#caja_derecha {
+  width: 240px;
+  float: right;
+  margin: 0px;
+  padding: 0px 30px 30px 0px;
+}
+
+#caja_derecha a {
+  color: #7EBA25;
+}
+
+#caja_derecha a:hover {
+  text-decoration: none;
+}
+
+#post {
+  margin: 0px 0px 30px 0px;
+  border-bottom: 1px dotted #CCCCCC;
+}
+
+#post h2 {
+  padding: 4px 35px 4px 15px;
+  background:#000000; font-weight: normal;
+  color: #FFFFFF
+}
+
+#post p {
+  padding: 20px 0px;
+  float: right;
+}
+
+#post h2 a{
+  text-decoration: none;
+  color: #7EBA25;
+  
+}
+
+#post img{
+  float: left; 
+}
+
+#pie{
+    margin: 0 auto; padding: 20px 0px; background: #000000; color: #686767;
+}
+
